@@ -48,7 +48,7 @@
     font-weight: 600;
 }
 .input_group input, .input_group textarea {
-    flex-basis: 68%;
+    flex-basis: 50%;
     background: transparent;
     border: 0;
     outline: 0;
