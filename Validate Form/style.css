@@ -95,9 +95,6 @@ form button {
     font-weight: 700;
 }
 @media screen and (max-width : 480px) {
-    .container form {
-        padding: 20px 15px 10px;
-    }
     .input_group input, .input_group textarea {
         font-size: 14px;
         font-weight: 500;
@@ -105,7 +102,6 @@ form button {
     .input_group label {
         font-size : 15px;
         font-weight: 500;
-        align-items: center;
     }
     ::placeholder {
         font-size: 14px;
@@ -125,12 +121,9 @@ form button {
 }
 @media screen and (max-width : 350px){
 
-     .container {
-         width: 250px;
-}
     .input_group label {
-        font-size : 10px;
-        padding-right : 5px;
+        font-size : 8px;
+        padding-right : 10px;
         font-weight: 500;
     }
     .input_group input, .input_group textarea {
