@@ -126,3 +126,20 @@ form button {
         font-weight: 500;
     }
 }
+@media screen and (max-width : 360px){
+    .input_group label {
+        font-size : 10px;
+        font-weight: 500;
+        align-items: center;
+    }
+    .input_group input, .input_group textarea {
+    flex-basis: 50%;
+    border: 0;
+    outline: 0;
+    padding: 6px 0;
+    border-bottom: 1px solid #999;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+}
