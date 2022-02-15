@@ -124,19 +124,17 @@ form button {
     }
 }
 @media screen and (max-width : 350px){
+
+     .container {
+         width: 250px;
+}
     .input_group label {
         font-size : 10px;
         font-weight: 500;
     }
     .input_group input, .input_group textarea {
     flex-basis: 55%;
-    Width: 70%
-    border: 0;
-    outline: 0;
-    padding: 6px 0;
-    border-bottom: 1px solid #999;
-    font-size: 15px;
-    font-weight: 500;
+    Width: 50%;
 }
 
 }
