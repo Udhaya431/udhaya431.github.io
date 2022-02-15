@@ -133,8 +133,7 @@ form button {
         font-weight: 500;
     }
     .input_group input, .input_group textarea {
-    flex-basis: 55%;
-    Width: 50%;
+    width: 50%;
 }
 
 }
