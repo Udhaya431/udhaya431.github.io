@@ -134,7 +134,7 @@ form button {
     }
     .input_group input, .input_group textarea {
     width: 30%;
-    border:none;
+    overflow: hidden;
 }
 
 }
