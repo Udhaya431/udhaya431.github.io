@@ -98,9 +98,6 @@ form button {
     .container form {
         padding: 20px 15px 10px;
     }
-    .input_group {
-        width: 100%;
-    }
     .input_group input, .input_group textarea {
         font-size: 14px;
         font-weight: 500;
@@ -128,17 +125,17 @@ form button {
 }
 @media screen and (max-width : 350px){
     .input_group label {
-        font-size : 8px;
+        font-size : 10px;
         font-weight: 500;
-        align-items: center;
     }
     .input_group input, .input_group textarea {
-    flex-basis: 50%;
+    flex-basis: 55%;
+    Width: 70%
     border: 0;
     outline: 0;
     padding: 6px 0;
     border-bottom: 1px solid #999;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
 }
 
