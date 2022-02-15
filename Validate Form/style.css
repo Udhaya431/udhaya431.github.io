@@ -126,9 +126,9 @@ form button {
         font-weight: 500;
     }
 }
-@media screen and (max-width : 360px){
+@media screen and (max-width : 350px){
     .input_group label {
-        font-size : 10px;
+        font-size : 8px;
         font-weight: 500;
         align-items: center;
     }
