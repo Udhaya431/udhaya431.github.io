@@ -123,7 +123,7 @@ form button {
 
     .input_group label {
         font-size : 8px;
-        padding-right : 10px;
+        padding-left: 7px;
         font-weight: 500;
     }
     .input_group input, .input_group textarea {
@@ -132,6 +132,6 @@ form button {
 }
      .input_group span {
         font-size: 10px;
-        right: 8px;
+        right: 5px;
 
 }
