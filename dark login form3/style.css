@@ -121,7 +121,7 @@ body {
    }
 
 }
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 268px) {
     .form {
         width: 200px;
         padding: 20px 20px 40px;
