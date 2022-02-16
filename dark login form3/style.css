@@ -92,7 +92,7 @@ body {
 }
 @media screen and (max-width: 368px) {
     .form {
-        width: 250px;
+        width: 300px;
         padding: 30px 30px 50px;
     }
     .form .input_form .input_box label {
@@ -123,7 +123,7 @@ body {
 }
 @media screen and (max-width: 268px) {
     .form {
-        width: 250px;
+        width: 300px;
         padding: 20px 20px 40px;
     }
     .form .input_form .input_box label {
