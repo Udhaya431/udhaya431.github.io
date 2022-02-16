@@ -121,37 +121,4 @@ body {
    }
 
 }
-@media screen and (max-width: 268px) {
-    .form {
-        width: 300px;
-        padding: 20px 20px 40px;
-    }
-    .form .input_form .input_box label {
-        font-size: 15px;
-        margin-bottom: 6px;
-    }
-    .form .input_form .input_box input {
-        font-size: 15;
-        height: 40%;
-    }
-    .form .input_form { 
-        margin-top: 10px;
-    }
-    .form .input_form .input_box {
-        margin-top: 10px;
-    }
-    .form .input_form .input_box input::placeholder {
-        font-size: 14px;
-        color: #555;
-        font-weight: 500;
-    }
-    .forget_id {
-        font-size: 14px;
-        color: #868686;
-        font-weight: 500;
-        margin-top: 15px;
-        margin-bottom: -30px;
-   
-   }
 
-}
