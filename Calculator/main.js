@@ -1,0 +1,21 @@
+var outputScreen = document.getElementById('user_input');
+
+function display(num){
+    outputScreen.value = outputScreen.value + num;
+}
+
+function calculate(){
+
+     try{
+         outputScreen.value = eval(outputScreen.value);
+     }
+     catch(err){
+        alert('Invalid')
+     }
+ }
+ function Clear(){
+     outputScreen.value ='';
+ }
+ function del(){
+     outputScreen.value = outputScreen.value.slice(0,-1);
+ }
