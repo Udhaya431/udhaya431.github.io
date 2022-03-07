@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D landing page</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- BOXICONS LINK -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav_logo">Coffee</a>
+            </div>
+            <div class="nav_toggle" id="nav_toggle">
+                <i class='bx bx-menu-alt-right'></i>
+            </div>
+            <div class="nav_menu" id="nav_menu">
+                <div class="nav_close" id="nav_close"><i class='bx bx-x'></i></div>
+
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Menu</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Contact</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Report</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+
+    </header>
+
+    <main class="l-main">
+        <!-- HOME -->
+        <section class="home" id="home">
+            <div class="home_container bd-grid">
+                <div class="home_img">
+                    <img src="./assets/img/img1.png" alt="" data-speed="-2" class="move">
+                    <img src="./assets/img/img3.png" alt="" data-speed="2" class="move">
+                    <img src="./assets/img/img2.png" alt="" data-speed="-2" class="move">
+                    <img src="./assets/img/img4.png" alt="" data-speed="2" class="move">
+                    <img src="./assets/img/img5.png" alt="" data-speed="-2" class="move">
+                    <img src="./assets/img/img6.png" alt="" data-speed="2" class="move">
+                </div>
+                <div class="home_data">
+                    <h1 class="home_title">Coffee<br> Drink 3D</h1>
+                    <p class="home_description">Let's help discover the best coffee drink <br> of the week.</p>
+                    <a href="#" class="home_button">Get Started</a>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+
+
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!--JS LINK-->
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
