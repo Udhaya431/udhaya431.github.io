@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image_text">
+                <span class="image">
+                    <img src="./img/logo.jpg" alt="logo">
+                </span>
+                <div class="text header_text">
+                    <span class="name">TamilVirus</span>
+                    <span class="profession">Web developer</span>
+                </div>
+            </div>
+
+            <i class='bx bxs-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu_bar">
+            <div class="menu">
+                <li class="search_box">
+                        <i class='bx bx-search-alt-2 icon'></i>
+                        <input type="search" placeholder="Search...">
+                </li>
+                <ul class="menu_links">
+                    <li class="nav_links">
+                        <a href="#">
+                            <i class='bx bxs-home-circle icon'></i>
+                            <span class="text nav_text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav_links">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icon'></i>
+                            <span class="text nav_text">Revenue</span>
+                        </a>
+                    </li>
+                    <li class="nav_links">
+                        <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav_text">Notification</span>
+                        </a>
+                    </li>
+                    <li class="nav_links">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon'></i>
+                            <span class="text nav_text">Analytics</span>
+                        </a>
+                    </li>
+                    <li class="nav_links">
+                        <a href="#">
+                            <i class='bx bx-heart icon'></i>
+                            <span class="text nav_text">Likes</span>
+                        </a>
+                    </li>
+                    <li class="nav_links">
+                        <a href="#">
+                            <i class='bx bx-wallet icon'></i>
+                            <span class="text nav_text">Wallets</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom_content">
+                <li class="nav_links">
+                    <a href="#">
+                        <i class='bx bx-log-out icon'></i>
+                        <span class="text nav_text">Logout</span>
+                    </a>
+                </li>
+                <li class="mode">
+                    <div class="moon_sun">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                   <span class="mode_text text">Dark Mode</span>
+
+                   <div class="toggle_switch">
+                       <span class="switch"></span>
+                   </div>
+                </li>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+     
+        <div class="text">Dashboard</div>
+    </section>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
